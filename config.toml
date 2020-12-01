@@ -7,5 +7,4 @@ enableRobotsTXT = true
 [params]
   google_analytics_id = "XX-XXXXXXXX-X"
   twitter_username = "kimschles"
-  github_username = "kimschles"
   paginate = true
