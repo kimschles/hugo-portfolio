@@ -1,10 +1,10 @@
-baseURL = "/"
+baseURL = "kimschlesinger.com"
 languageCode = "en-us"
 title = "Kim Schlesinger"
 theme = "pixyll"
 enableRobotsTXT = true
 
+
 [params]
-  google_analytics_id = "XX-XXXXXXXX-X"
   twitter_username = "kimschles"
-  paginate = true
+

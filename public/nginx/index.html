@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>nginx for Scaredy Cats - Kim Schlesinger</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+  <link rel="canonical" href="kimschlesinger.com/nginx/">
+
+  
+  
+
+  
+  
+
+  
+  
+
+  <link rel="stylesheet" type="text/css" href="kimschlesinger.com/css/combined-min.css">
+  
+
+
+
+</head>
+
+<body class="">
+<div class="site-wrap">
+  <header class="site-header px2 px-responsive">
+  <div class="mt2 wrap">
+    <div class="measure">
+      <a href="kimschlesinger.com" class="site-title">Kim Schlesinger</a>
+      <nav class="site-nav right">
+      <a href="kimschlesinger.com/">Home</a>
+<a href="kimschlesinger.com/about/">About</a>
+<a href="kimschlesinger.com/talks/">Talks</a>
+</form>
+      </nav>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</header>
+
+  <div class="post p2 p-responsive wrap" role="main">
+    <div class="measure">
+      <div class="post-header mb2">
+        <h1 class="py2">nginx for Scaredy Cats</h1>
+      </div>
+
+      <article class="post-content">
+      <p>Although I&rsquo;ve been an ops engineer for a couple of years, I&rsquo;ve felt intimidated by nginx and</p>
+<p>nginx for scaredy cats</p>
+<p><img src="https://images.unsplash.com/photo-1548247416-ec66f4900b2e?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=300&amp;q=80" alt=""></p>
+<h2 id="about-nginx">About nginx</h2>
+<p>nginx, pronounced &ldquo;engine-x,&rdquo; is a project that can configured as a web server, reverse proxy and/or load balancer. The project was first developed in 2004 by Igor Sysoev, and its original purpose was to solve the <a href="https://en.wikipedia.org/wiki/C10k_problem">C10K Problem</a>.  which is a web server that can concurrently handling ten thousand connections. Although that was an issue in the early 2000s, now nginx can handle ### requests at once.</p>
+<p>There are two versions of nginx, open source nginx and nginx Plus. The open source version is free, while nginx plus is something you have to pay for, but it has more features.</p>
+<p>nginx is a popular server. According to the <a href="https://news.netcraft.com/archives/category/web-server-survey/">Netcraft April 2020 Web Server Survey</a>, nginx serves 28.5% active sites on the web, while Apache is second with 27.8%.</p>
+<h2 id="server-response-header">Server Response Header</h2>
+<p>Here&rsquo;s one way to see which server has sent a file to your web browser:</p>
+<p><strong>Look at the http response headers using your browser&rsquo;s dev tools</strong></p>
+<ul>
+<li>Open dev tools</li>
+<li>Go to the network tab</li>
+<li>Refresh the page and pick one file to look at</li>
+<li>Look at response headers</li>
+</ul>
+<p><img src="" alt=""></p>
+<p>Not all responses have the <code>server</code> header. If you decide to add that information, you don&rsquo;t want to put too much information or else attackers could exploit known vulnerabilties of that particular software.</p>
+<h2 id="prerequities">Prerequities</h2>
+<h2 id="reverse-proxy">Reverse Proxy</h2>
+<p>The simplest nginx configuration possible:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C" data-lang="C">server {
+    location <span style="color:#f92672">/</span> {
+        proxy_pass http:<span style="color:#75715e">//&lt;IP_ADDRESS_OF_YOUR_SERVER&gt;:8080/;
+</span><span style="color:#75715e"></span>    }
+}
+</code></pre></div><p>A few more directives:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C" data-lang="C">server {
+    location <span style="color:#f92672">/</span> {
+        proxy_pass http:<span style="color:#75715e">//&lt;IP_ADDRESS_OF_YOUR_SERVER&gt;:8080/;
+</span><span style="color:#75715e"></span>        proxy_http_version <span style="color:#ae81ff">1.1</span>;
+        proxy_set_header Upgrade <span style="color:#960050;background-color:#1e0010">$</span>http_upgrade;
+        proxy_set_header Connection <span style="color:#960050;background-color:#1e0010">&#39;</span>upgrade<span style="color:#960050;background-color:#1e0010">&#39;</span>;
+        proxy_set_header Host <span style="color:#960050;background-color:#1e0010">$</span>host;
+        proxy_cache_bypass <span style="color:#960050;background-color:#1e0010">$</span>http_upgrade;
+    }
+}
+</code></pre></div><h2 id="content-cache">Content Cache</h2>
+<h2 id="load-balancer">Load Balancer</h2>
+<h2 id="resources">Resources</h2>
+
+      </article>
+    </div>
+  </div>
+</div>
+<footer class="footer">
+  <div class="p2 wrap">
+    <div class="measure mt1 center">
+      <nav class="social-icons icons">
+    <a class="fa fa-github github" href="https://github.com/kimschles"></a>
+    <a class="fa fa-github linkedin" href="https://www.linkedin.com/in/kimschlesinger/"></a>
+    
+    <a class="fa fa-twitter twitter" href="https://twitter.com/kimschles"></a>
+    
+    <a class="fa fa-rss rss" href="/index.xml"></a>
+</nav>
+      <small>
+        Copyright &#169; 2021<br>
+        Powered by <a href="http://gohugo.io/" target="_blank">Hugo</a> &amp; <a
+          href="https://github.com/azmelanar/hugo-theme-pixyll" target="_blank">Pixyll</a>
+      </small>
+    </div>
+  </div>
+</footer>
+
+
+<script src="/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+</body>
+
+</html>
