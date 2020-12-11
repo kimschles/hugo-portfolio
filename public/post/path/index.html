@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>PATH, FHS and $PS1 - Kim Schlesinger</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+  <link rel="canonical" href="/post/path/">
+
+  
+  
+
+  
+  
+
+  
+  
+
+  <link rel="stylesheet" type="text/css" href="//css/combined-min.css">
+  
+
+
+
+</head>
+
+<body class="">
+<div class="site-wrap">
+  <header class="site-header px2 px-responsive">
+  <div class="mt2 wrap">
+    <div class="measure">
+      <a href="/" class="site-title"><img
+          src="https://res.cloudinary.com/kimschlesinger/image/upload/v1531691545/KS-logo-LRG-PNG.png"></a>
+      <nav class=" site-nav right">
+        <a href="//">Home</a>
+<a href="//about/">About</a>
+<a href="//talks/">Talks</a>
+</form>
+      </nav>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</header>
+  <div class="post p2 p-responsive wrap" role="main">
+    <div class="measure">
+      <div class="post-header mb2">
+        <h1 class="py2">PATH, FHS and $PS1</h1>
+        <span class="post-meta">Feb 25, 2020  by kim </span><br>
+        
+      </div>
+
+      <article class="post-content">
+      <p>This is a companion blog post for a presentation I gave at the February 2020 DenverScript Meetup.</p>
+<p>You can find the video recording and slide deck on my <a href="/talks">talks</a> page.</p>
+<h2 id="the-path-variable">The Path Variable</h2>
+<ul>
+<li>
+<p><code>PATH</code> is an enviornment variable.</p>
+</li>
+<li>
+<p>The variable is a colon-delimited string. The directory before each colon contains executable code and is invoked through a command, like <code>pwd</code>.</p>
+</li>
+<li>
+<p>To see the value, run <code>echo $PATH</code> from your command line</p>
+</li>
+<li>
+<p>Here&rsquo;s an example path:</p>
+<p><code>/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin</code></p>
+</li>
+<li>
+<p>In the example, these are the directories in the path:</p>
+<ul>
+<li><code>/usr/local/sbin</code></li>
+<li><code>/usr/local/bin</code></li>
+<li><code>/usr/sbin</code></li>
+<li><code>/usr/bin</code></li>
+<li><code>/sbin</code></li>
+<li><code>/bin</code></li>
+</ul>
+</li>
+<li>
+<p>When you type a text command and hit <code>RETURN</code> your computer looks in all the directories listed in the path, and if it finds code for the command, it will execute the program.</p>
+</li>
+<li>
+<p>Most of the built-in system commands are written in the C programming langauge.</p>
+</li>
+<li>
+<p>For MacOS and Linux, to change your path, find and edit it in your <code>.bash_profile</code>, <code>.bashrc</code> or <code>.zshrc</code> file.</p>
+</li>
+</ul>
+<h3 id="resources">Resources</h3>
+<p>I&rsquo;ve learned alot about the PATH variable from <a href="https://breanneboland.com/">Breanne Boland</a>, who wrote the first two articles on this list.</p>
+<ul>
+<li><a href="https://truss.works/blog/2016/2/26/engineer-how-to-access-and-edit-your-path-system-variable">Access &amp; Make Awesome Your PATH System Variable</a></li>
+<li><a href="https://stackoverflow.blog/2020/02/12/when-laziness-is-efficient-make-the-most-of-your-command-line/">When laziness is efficient: Make the most of your command line</a></li>
+<li><a href="http://www.linfo.org/path_env_var.html">PATH Definition</a></li>
+<li><a href="https://coolestguidesontheplanet.com/add-shell-path-osx/">How to Modify the Shell Path in macOS Sierra and OSX using Terminal</a></li>
+<li><a href="https://apple.stackexchange.com/questions/51036/what-is-the-difference-between-bash-profile-and-bashrc">What is the difference between .bash_profile and .bashrc?</a></li>
+</ul>
+<h2 id="the-filesystem-hierarchy-standard">The Filesystem Hierarchy Standard</h2>
+<ul>
+<li>The root directory contains folders and files under the forward-slash, <code>/</code>.</li>
+<li>The Filesystem Hierarchy Standard defines the organization of the root directory.</li>
+<li>Most Unix-like operating systems (UNIX, Linux, MacOS, etc.) organize their root directories according to the FHS.</li>
+</ul>
+<p>A few directories in the root directory:</p>
+<ul>
+<li><code>/bin</code>: stands for binary, and contains common commands used by system adminstrators and users</li>
+<li><code>/sbin</code>: stands for system binaries, andontains root-only commands and commands that pair well with commands in <code>/bin</code></li>
+<li><code>/usr</code>: has some read-only data, and lots of common commands in <code>/usr/bin</code></li>
+</ul>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Standard-unix-filesystem-hierarchy.svg" alt=""></p>
+<p><!-- raw HTML omitted -->Source: <a href="https://upload.wikimedia.org/wikipedia/commons/f/f3/Standard-unix-filesystem-hierarchy.svg">https://upload.wikimedia.org/wikipedia/commons/f/f3/Standard-unix-filesystem-hierarchy.svg</a><!-- raw HTML omitted --></p>
+<h3 id="resources-1">Resources</h3>
+<ul>
+<li><a href="https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.html">Filesystem Hierarchy Standard</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard">Wikipedia: Filesystem Hierarchy Standard</a></li>
+<li><a href="http://www.linfo.org/bin.html">The /bin Directory</a></li>
+<li><a href="https://www.linuxnix.com/linux-directory-structure-explained-bin-folder/">Linux Directory Structure explained: /bin folder</a></li>
+</ul>
+<h2 id="the-ps1-variable">The PS1 Variable</h2>
+<ul>
+<li>
+<p><code>PS1</code> is an enviornment variable that creates the default command prompt you see at the beginning of your command line.</p>
+</li>
+<li>
+<p>To see the value, run <code>echo $PS1</code>.</p>
+</li>
+<li>
+<p>Here&rsquo;s an example PS1:</p>
+<p><code>\u@\h:\w\$</code></p>
+</li>
+<li>
+<p>In the example, the username (<code>\u</code>), hostname (<code>\h</code>) and working directory (<code>\w</code>) come before the dollar sign, and are separated by <code>@</code> and <code>:</code>.</p>
+</li>
+<li>
+<p>On my computer, this PS1 shows up as <code>kschlesinger@kims-macbook-air:~$</code></p>
+</li>
+<li>
+<p>To add colors to your PS1, open your <code>bash_profile</code>, <code>.bashrc</code> or <code>.zshrc</code> and add <a href="https://stackoverflow.com/questions/4842424/list-of-ansi-color-escape-sequences">ANSI color escape sequences</a> before each section of your PS1. Add an emoji if you&rsquo;d like. Here&rsquo;s an example:</p>
+<p><code>export PS1=&quot;\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ 🌵 &quot;</code></p>
+</li>
+<li>
+<p>On my computer, this PS1 shows up as <code>kschlesinger@kims-macbook-air:~$ 🌵 </code> with the username in teal, the hostname in green and the working directory in yellow.</p>
+</li>
+</ul>
+<h3 id="resources-2">Resources</h3>
+<ul>
+<li><a href="https://linoxide.com/how-tos/change-bash-prompt-variable-ps1/">How to Customize Shell Variable PS1-PS4 on Bash Prompt</a></li>
+<li><a href="https://unix.stackexchange.com/questions/148/colorizing-your-terminal-and-shell-environment">UNIX StackExchange: Colorizing your terminal and shell environment</a></li>
+<li><a href="https://natelandau.com/my-mac-osx-bash_profile/">My Mac OSX Bash Profile</a></li>
+<li><a href="https://stackoverflow.com/questions/4842424/list-of-ansi-color-escape-sequences">StackOverflow: List of ANSI color escape sequences</a></li>
+<li><a href="https://osxdaily.com/2013/02/05/improve-terminal-appearance-mac-os-x/">Simple Tricks to Improve the Terminal Appearance in Mac OS X</a></li>
+<li><a href="http://www.marinamele.com/2014/05/customize-colors-of-your-terminal-in-mac-os-x.html">Customize the colors of your Terminal in Mac OS X</a></li>
+</ul>
+
+      </article>
+
+      
+
+      
+
+    </div>
+  </div>
+</div>
+<footer class="footer">
+  <div class="p2 wrap">
+    <div class="measure mt1 center">
+      <nav class="social-icons icons">
+    <a class="fa fa-github github" href="https://github.com/kimschles"></a>
+    <a class="fa fa-github linkedin" href="https://www.linkedin.com/in/kimschlesinger/"></a>
+    
+    <a class="fa fa-twitter twitter" href="https://twitter.com/kimschles"></a>
+    
+    <a class="fa fa-rss rss" href="/index.xml"></a>
+</nav>
+      <small>
+        Copyright &#169; 2021<br>
+        Powered by <a href="http://gohugo.io/" target="_blank">Hugo</a> &amp; <a
+          href="https://github.com/azmelanar/hugo-theme-pixyll" target="_blank">Pixyll</a>
+      </small>
+    </div>
+  </div>
+</footer>
+
+
+<script src="/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+</body>
+
+</html>

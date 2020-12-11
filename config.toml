@@ -1,4 +1,4 @@
-baseURL = "kimschlesinger.com"
+baseURL = "/"
 languageCode = "en-us"
 title = "Kim Schlesinger"
 theme = "pixyll"

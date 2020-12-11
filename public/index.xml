@@ -2,7 +2,7 @@
   <channel>
       <title>Kim Schlesinger on Kim Schlesinger </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>kimschlesinger.com/</link>
+    <link>/</link>
     <language>en-us</language>
     
     
@@ -10,22 +10,45 @@
     
     <item>
       <title>nginx for Scaredy Cats</title>
-      <link>kimschlesinger.com/nginx/</link>
+      <link>/post/nginx/</link>
       <pubDate>Tue, 01 Dec 2020 20:54:40 MST</pubDate>
       
-      <guid>kimschlesinger.com/nginx/</guid>
+      <guid>/post/nginx/</guid>
       <description>Although I&amp;rsquo;ve been an ops engineer for a couple of years, I&amp;rsquo;ve felt intimidated by nginx and
-nginx for scaredy cats
-About nginx nginx, pronounced &amp;ldquo;engine-x,&amp;rdquo; is a project that can configured as a web server, reverse proxy and/or load balancer. The project was first developed in 2004 by Igor Sysoev, and its original purpose was to solve the C10K Problem. which is a web server that can concurrently handling ten thousand connections.</description>
+About nginx nginx, pronounced &amp;ldquo;engine-x,&amp;rdquo; is a project that can configured as a web server, reverse proxy and/or load balancer. The project was first developed in 2004 by Igor Sysoev, and its original purpose was to solve the C10K Problem. which is a web server that can concurrently handling ten thousand connections. Although that was an issue in the early 2000s, now nginx can handle ### requests at once.</description>
     </item>
     
     <item>
-      <title>Is that a cooking show?</title>
-      <link>kimschlesinger.com/my-first-post/</link>
-      <pubDate>Wed, 30 Aug 2017 00:00:00 UTC</pubDate>
+      <title>PATH, FHS and $PS1</title>
+      <link>/post/path/</link>
+      <pubDate>Tue, 25 Feb 2020 08:59:00 UTC</pubDate>
       
-      <guid>kimschlesinger.com/my-first-post/</guid>
-      <description>asdfljk</description>
+      <guid>/post/path/</guid>
+      <description>This is a companion blog post for a presentation I gave at the February 2020 DenverScript Meetup.
+You can find the video recording and slide deck on my talks page.
+The Path Variable   PATH is an enviornment variable.
+  The variable is a colon-delimited string. The directory before each colon contains executable code and is invoked through a command, like pwd.
+  To see the value, run echo $PATH from your command line</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Hi! I&amp;rsquo;m Kim.
+I am currently a Site Reliability Engineer at Fairwinds Ops, as well as the Head of Education and Content for Develop Denver.
+Previously, I cofounded diversity, and I was an Instructor and Curriculum Designer for the Web Development Program at Galvanize, a codeschool based in Denver, Colorado.</description>
+    </item>
+    
+    <item>
+      <title>Talks</title>
+      <link>/talks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>/talks/</guid>
+      <description>$PATH, /bin and $PS1 DenverScript, February 2020  Video Slides  Fuzzy Lines: Aligning Teams to Monitor Your Application Ecosystem USENIX LISA, October 2019  Video Slides  Refactoring for Accessibility Denver Node.js Meetup, May 2019  Video Slides  Zero to SRE Devops Days Rockies, April 2019 SRECon 19 Americas, March 2019 Denver DevOps Meetup, October 2018  Video Slides  $PATH Lightning Talk BoulderJS, November 2018  Slides  A Beginner&amp;rsquo;s Guide to Kubernetes Develop Denver 2018  Video Slides Github Repo  How to be a Kick-Ass Teacher Develop Denver 2017  Video Slides  Building an Inclusive Workplace Environment Develop Denver 2017  Video  Learning Programming with Others Weekly Python Chat with Trey Hunner, April 2017  Video  Assistive Technology in Public Schools Front Range Accessibility and Inclusive Design Meetup, October 2015  Slides  </description>
     </item>
     
   </channel>
