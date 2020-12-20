@@ -1,7 +1,7 @@
 baseURL = "https://ecstatic-fermi-801e5a.netlify.app/"
 languageCode = "en-us"
 title = "Kim Schlesinger"
-theme = "pixyll"
+theme = "hugo-theme-pixyll"
 enableRobotsTXT = true
 
 
