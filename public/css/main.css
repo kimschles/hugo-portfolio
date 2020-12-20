@@ -287,6 +287,7 @@ h6,
 @media screen and (min-width: 48em) {
   .site-header .site-title {
     float: left;
+    width: 4em;
   }
 
   .meta,
@@ -371,6 +372,7 @@ h6,
 
   .site-header .site-title {
     float: center;
+    width: 4em;
   }
 
   .site-header .site-nav {

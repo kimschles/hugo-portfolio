@@ -2,6 +2,11 @@
 title: "Talks"
 ---
 
+### nginx and Node.js 
+#### Denver Node.js Meetup, March 2020 
+- [Video](https://www.youtube.com/watch?v=Jj6NmCRVktU)
+
+
 ### $PATH, /bin and $PS1
 #### DenverScript, February 2020
 - [Video](https://youtu.be/JJRuNB0M_CQ?t=2893)

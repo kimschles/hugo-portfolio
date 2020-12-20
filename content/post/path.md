@@ -3,7 +3,6 @@ title:      "PATH, FHS and $PS1"
 date:       2020-02-25 08:59:00
 description:    "Demystifying PATH, the Filesystem Hierarchy and PS1"
 draft: false
-author: "kim"
 ---
 
 This is a companion blog post for a presentation I gave at the February 2020 DenverScript Meetup.

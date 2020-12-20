@@ -1,15 +1,19 @@
 ---
-title: "About"
+title: Hi! I'm Kim. 
 ---
 
-![Kim Schlesinger talking to an audience in front of the Develop Denver logo.](https://res.cloudinary.com/kimschlesinger/image/upload/c_scale,w_550/v1606362929/00044_DVLP2019.jpg)
+![Kim Schlesinger talking to a conference audience in front of the Develop Denver logo.](https://res.cloudinary.com/kimschlesinger/image/upload/c_scale,w_550/v1606362929/00044_DVLP2019.jpg)
 
-Hi! I'm Kim. 
+I'm an technologist and educator. 
 
-I am currently a Site Reliability Engineer at [Fairwinds Ops](https://www.fairwinds.com/), as well as the Head of Education and Content for [Develop Denver](https://developdenver.org/). 
+Currently, I am a Site Reliability Engineer at [Fairwinds Ops](https://www.fairwinds.com/), and the Head of Education and Content for [Develop Denver](https://developdenver.org/). 
 
 Previously, I cofounded [diversity](https://hirediversity.us/), and 
 I was an Instructor and Curriculum Designer for the Web Development Program at Galvanize, a codeschool based in Denver, Colorado. 
+
+Before tech, I was an elementary school special education teacher and instructional coach. 
+
+I love gravelbiking, exploring new hiking and biking trails in Southern Colorado and listening to the [You're Wrong About](https://yourewrongabout.com/) podcast.  
 
 
 
