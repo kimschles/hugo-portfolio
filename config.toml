@@ -1,4 +1,4 @@
-baseURL = "https://kimschlesinger.netlify.app"
+baseURL = "https://kimschlesinger.com"
 languageCode = "en-us"
 title = "Kim Schlesinger"
 theme = "hugo-theme-pixyll"
