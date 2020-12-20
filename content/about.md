@@ -9,7 +9,7 @@ I'm an technologist and educator.
 Currently, I am a Site Reliability Engineer at [Fairwinds Ops](https://www.fairwinds.com/), and the Head of Education and Content for [Develop Denver](https://developdenver.org/). 
 
 Previously, I cofounded [diversity](https://hirediversity.us/), and 
-I was an Instructor and Curriculum Designer for the Web Development Program at Galvanize, a codeschool based in Denver, Colorado. 
+I was an instructor and curriculum designer for the Web Development Program at Galvanize, a codeschool based in Denver, Colorado. 
 
 Before tech, I was an elementary school special education teacher and instructional coach. 
 
