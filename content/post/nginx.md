@@ -3,6 +3,7 @@ title: "nginx for Scaredy Cats"
 description: "nginx as a Reverse Proxy, Content Cache and Load Balancer"
 date: 2020-12-01T20:54:40-07:00
 draft: true
+author: Kim Schlesinger
 ---
 
 ![](https://images.unsplash.com/photo-1548247416-ec66f4900b2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80)

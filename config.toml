@@ -4,7 +4,7 @@ title = "Kim Schlesinger"
 theme = "hugo-theme-pixyll"
 enableRobotsTXT = true
 
-
 [params]
   twitter_username = "kimschles"
+  paginate = 4
 

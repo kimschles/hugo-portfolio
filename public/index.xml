@@ -2,7 +2,7 @@
   <channel>
       <title>Kim Schlesinger on Kim Schlesinger </title>
       <generator uri="https://gohugo.io">Hugo</generator>
-    <link>/</link>
+    <link>https://kimschlesinger.com/</link>
     <language>en-us</language>
     
     
@@ -10,10 +10,10 @@
     
     <item>
       <title>PATH, FHS and $PS1</title>
-      <link>/post/path/</link>
+      <link>https://kimschlesinger.com/post/path/</link>
       <pubDate>Tue, 25 Feb 2020 08:59:00 UTC</pubDate>
       
-      <guid>/post/path/</guid>
+      <guid>https://kimschlesinger.com/post/path/</guid>
       <description>This is a companion blog post for a presentation I gave at the February 2020 DenverScript Meetup.
 You can find the video recording and slide deck on my talks page.
 The Path Variable   PATH is an enviornment variable.
@@ -23,24 +23,24 @@ The Path Variable   PATH is an enviornment variable.
     
     <item>
       <title>Hi! I&#39;m Kim.</title>
-      <link>/about/</link>
+      <link>https://kimschlesinger.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       
-      <guid>/about/</guid>
-      <description>I&amp;rsquo;m an technologist and educator.
-Currently, I am a Site Reliability Engineer at Fairwinds Ops, and the Head of Education and Content for Develop Denver.
-Previously, I cofounded diversity, and I was an Instructor and Curriculum Designer for the Web Development Program at Galvanize, a codeschool based in Denver, Colorado.
+      <guid>https://kimschlesinger.com/about/</guid>
+      <description>I am a technologist and educator.
+Currently, I work as a Site Reliability Engineer at Fairwinds Ops, and the Head of Education and Content for Develop Denver.
+Previously, I cofounded diversity, and I was an instructor and curriculum designer for the Web Development Program at Galvanize, a codeschool based in Denver, Colorado.
 Before tech, I was an elementary school special education teacher and instructional coach.
 I love gravelbiking, exploring new hiking and biking trails in Southern Colorado and listening to the You&amp;rsquo;re Wrong About podcast.</description>
     </item>
     
     <item>
       <title>Talks</title>
-      <link>/talks/</link>
+      <link>https://kimschlesinger.com/talks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       
-      <guid>/talks/</guid>
-      <description>Nginx and Node.js Denver Node.js Meetup, March 2020  Video  $PATH, /bin and $PS1 DenverScript, February 2020  Video Slides  Fuzzy Lines: Aligning Teams to Monitor Your Application Ecosystem USENIX LISA, October 2019  Video Slides  Refactoring for Accessibility Denver Node.js Meetup, May 2019  Video Slides  Zero to SRE Devops Days Rockies, April 2019 SRECon 19 Americas, March 2019 Denver DevOps Meetup, October 2018  Video Slides  $PATH Lightning Talk BoulderJS, November 2018  Slides  A Beginner&amp;rsquo;s Guide to Kubernetes Develop Denver 2018  Video Slides Github Repo  How to be a Kick-Ass Teacher Develop Denver 2017  Video Slides  Building an Inclusive Workplace Environment Develop Denver 2017  Video  Learning Programming with Others Weekly Python Chat with Trey Hunner, April 2017  Video  Assistive Technology in Public Schools Front Range Accessibility and Inclusive Design Meetup, October 2015  Slides  </description>
+      <guid>https://kimschlesinger.com/talks/</guid>
+      <description>nginx and Node.js Denver Node.js Meetup, May 2020  Video  $PATH, /bin and $PS1 DenverScript, February 2020  Video Slides  Fuzzy Lines: Aligning Teams to Monitor Your Application Ecosystem USENIX LISA, October 2019  Video Slides  Refactoring for Accessibility Denver Node.js Meetup, May 2019  Video Slides  Zero to SRE Devops Days Rockies, April 2019 SRECon 19 Americas, March 2019 Denver DevOps Meetup, October 2018  Video Slides  $PATH Lightning Talk BoulderJS, November 2018  Slides  A Beginner&amp;rsquo;s Guide to Kubernetes Develop Denver 2018  Video Slides Github Repo  How to be a Kick-Ass Teacher Develop Denver 2017  Video Slides  Building an Inclusive Workplace Environment Develop Denver 2017  Video  Learning Programming with Others Weekly Python Chat with Trey Hunner, April 2017  Video  Assistive Technology in Public Schools Front Range Accessibility and Inclusive Design Meetup, October 2015  Slides  </description>
     </item>
     
   </channel>
