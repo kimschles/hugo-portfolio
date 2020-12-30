@@ -38,7 +38,7 @@ Keep your notes focused on the larger ideas in the talk, not the details. If the
 
 **Do you want to create something new, or discover deeper patterns and connections?** Write objectives using verbs from the synthesis or evaluation tiers of Bloom’s Taxonomy. For example: _Compare and contrast the benefits of Node.js with Ruby on Rails_
 
- [![A list of verbs aligned with Bloom's Taxonomy](http://www.fractuslearning.com/wp-content/uploads/2016/01/blooms-taxonomy-verbs-1280.png)](http://www.fractuslearning.com/wp-content/uploads/2016/01/blooms-taxonomy-verbs-1280.png) 
+ [![A list of verbs aligned with Bloom's Taxonomy](https://www.fractuslearning.com/wp-content/uploads/2016/01/blooms-taxonomy-verbs-1280.png)](http://www.fractuslearning.com/wp-content/uploads/2016/01/blooms-taxonomy-verbs-1280.png) 
 
 Image from [Fractus Learning](https://www.fractuslearning.com/2016/01/25/blooms-taxonomy-verbs-free-chart/)
 

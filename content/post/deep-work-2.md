@@ -2,11 +2,10 @@
 title:      The Unnamed Privilege of Deep Work
 date:       2019-12-09 08:59:00
 description:    A critique of stories told in Deep Work 
-author: Kim Schlesinger
 draft: false
 ---
 
-In my [last blog post](https://kimschlesinger.com/2019/11/04/Deep-Work/), I wrote about how I’ve developed some new work habits after reading Cal Newport’s book Deep Work. Applying the techniques have transformed how I approach challenging projects at work and in my spare time, and I’m reading, writing, and creating more than ever before. 
+In my [last blog post](https://kimschlesinger.com/post/deep-work), I wrote about how I’ve developed some new work habits after reading Cal Newport’s book Deep Work. Applying the techniques have transformed how I approach challenging projects at work and in my spare time, and I’m reading, writing, and creating more than ever before. 
 
 Although Deep Work motivated me to change my habits, as I was reading the book, I noticed a quiet and persistent voice in my head telling me this style of work might not be for me. It only took me reading a couple of chapters to realize why. Throughout the book, Newport paints a picture of what deep work looks like by telling stories about successful individuals and how they work, and nearly every example was a white man. This made it hard for me to imagine myself doing deep work. 
 

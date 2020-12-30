@@ -13,7 +13,7 @@ I was an instructor and curriculum designer for the Web Development Program at G
 
 Before tech, I was an elementary school special education teacher and instructional coach. 
 
-I love gravelbiking, exploring new hiking and biking trails in Southern Colorado and listening to the [You're Wrong About](https://yourewrongabout.com/) podcast.  
+I love weight lifting, exploring new hiking and biking trails in Southern Colorado and listening to the [You're Wrong About](https://yourewrongabout.com/) podcast.  
 
 
 

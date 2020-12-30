@@ -2,7 +2,7 @@
 title:      Deep Work
 date:       2019-11-04 09:00:18
 description:    My journey to apply the principles of Deep Work
-author: Kim Schlesinger
+
 draft: false
 ---
 
