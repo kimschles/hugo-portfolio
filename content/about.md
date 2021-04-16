@@ -12,7 +12,7 @@ Before tech, I was an elementary school special education teacher and instructio
 
 I love weight lifting, exploring hiking and biking trails in Southern Colorado and listening to the [You're Wrong About](https://yourewrongabout.com/) podcast.  
 
-I'm documenting some of my favorite tech resources [here](kimschlesinger.com/recommended-resources). Feel free to check it out. 
+I'm documenting some of my favorite tech resources [here](/recommended-resources). Feel free to check it out. 
 
 
 
