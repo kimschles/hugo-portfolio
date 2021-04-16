@@ -1,4 +1,4 @@
-# Kim's Hugo Portfolio 
+# Kim's Personal Website
 
 This is the project that generates the code for [kimschlesinger.com](https://kimschlesinger.com/). It is built with [Hugo](https://gohugo.io/) and deployed with [Netlify](https://www.netlify.com/). 
 
@@ -15,7 +15,7 @@ Clone this repo, change into the directory and run `hugo serve -D`. Open your br
 
 I wanted to customize the Pixyll theme more than is possible through the `config.toml` file, so I forked the theme and used a git submodule to link to [that repo](https://github.com/kimschles/hugo-theme-pixyll). I got this idea from [this blog post](https://www.andrewhoog.com/post/git-submodule-for-hugo-themes/) by Andrew Hoog. 
 
-If you're actually looking to build your own portfolio with Hugo, I recommend working through the [Hugo Quick Start Tutorial](https://gohugo.io/getting-started/quick-start/). 
+If you're actually looking to build your own portfolio with Hugo, I recommend working through the [Hugo Quick Start Tutorial](https://gohugo.io/getting-started/quick-start/) and use this project as a reference. 
 
 ## Deployment
 

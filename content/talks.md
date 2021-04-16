@@ -5,6 +5,7 @@ title: "Talks"
 ### nginx and Node.js 
 #### Denver Node.js Meetup, May 2020 
 - [Video](https://www.youtube.com/watch?v=Jj6NmCRVktU)
+- [Slides](https://speakerdeck.com/kimschles/nginx-and-node-dot-js)
 - [Github Repo](https://github.com/kimschles/nginx-nodejs)
 
 
