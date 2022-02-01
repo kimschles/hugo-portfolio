@@ -2,6 +2,11 @@
 title: "Talks"
 ---
 
+### Beyond Block Diagrams: Different Ways of Understanding Kubernetes Architecture
+#### KubeCon + CloudNative North America 2021
+- [Video](https://www.youtube.com/watch?v=X40LJM0KuQ8)
+- [Slides](https://speakerdeck.com/kimschles/beyond-block-diagrams-different-ways-of-understanding-k8s-architecture)
+
 ### nginx and Node.js 
 #### Denver Node.js Meetup, May 2020 
 - [Video](https://www.youtube.com/watch?v=Jj6NmCRVktU)
@@ -46,16 +51,3 @@ title: "Talks"
 #### Develop Denver 2017
 - [Video](https://www.youtube.com/watch?v=r5Z1xEoB_Q8)
 - [Slides](https://speakerdeck.com/kimschles/kick-ass-teacher)
-    
-### Building an Inclusive Workplace Environment 
-#### Develop Denver 2017
-- [Video](https://www.youtube.com/watch?v=OqWR9VbLTFo)
-
-### Learning Programming with Others
-#### Weekly Python Chat with Trey Hunner, April 2017
-- [Video](https://www.crowdcast.io/e/learn-together/register)
-
-### Assistive Technology in Public Schools
-#### Front Range Accessibility and Inclusive Design Meetup, October 2015 
-- [Slides](https://docs.google.com/presentation/d/1FJdqBLWwG78iLMszqvoe5tFbblxyJqD3ILzkDt5eCEU/)
-

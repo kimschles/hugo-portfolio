@@ -139,11 +139,19 @@ Step 1: Before the talk, set your intention. Prior to the talk, you should decid
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       
       <guid>https://kimschlesinger.com/about/</guid>
-      <description>I am a technologist and educator.
-Currently, I work as a Site Reliability Engineer at Fairwinds Ops.
-Previously, I was the Head of Education and Content for Develop Denver, I cofounded diversity, and I was an instructor and curriculum designer at Galvanize, a codeschool based in Denver, Colorado.
+      <description>I am a technologist and educator, and right now I&amp;rsquo;m taking a break between jobs.
+I&amp;rsquo;ve worked as a Site Reliability Engineer at Fairwinds Ops, I&amp;rsquo;ve been the Head of Education and Content for Develop Denver, I cofounded diversity, and I was an instructor and curriculum designer at Galvanize, a codeschool based in Denver, Colorado.
 Before tech, I was an elementary school special education teacher and instructional coach.
 I love weight lifting, exploring hiking and biking trails in Southern Colorado and listening to the You&amp;rsquo;re Wrong About podcast.</description>
+    </item>
+    
+    <item>
+      <title>Recommended Resources</title>
+      <link>https://kimschlesinger.com/recommended-resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>https://kimschlesinger.com/recommended-resources/</guid>
+      <description> Databases: how they work, and a brief history by Laurie Voss The Majestic Monolith can become The Citadel by DHH Your Computer Isn&amp;rsquo;t Yours  by Jeffry Paul  </description>
     </item>
     
     <item>
@@ -152,7 +160,7 @@ I love weight lifting, exploring hiking and biking trails in Southern Colorado a
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       
       <guid>https://kimschlesinger.com/talks/</guid>
-      <description>nginx and Node.js Denver Node.js Meetup, May 2020  Video Github Repo  $PATH, /bin and $PS1 DenverScript, February 2020  Video Slides  Fuzzy Lines: Aligning Teams to Monitor Your Application Ecosystem USENIX LISA, October 2019  Video Slides  Refactoring for Accessibility Denver Node.js Meetup, May 2019  Video Slides  Zero to SRE Devops Days Rockies, April 2019 SRECon 19 Americas, March 2019 Denver DevOps Meetup, October 2018  Video Slides  $PATH Lightning Talk BoulderJS, November 2018  Slides  A Beginner&amp;rsquo;s Guide to Kubernetes Develop Denver 2018  Video Slides Github Repo  How to be a Kick-Ass Teacher Develop Denver 2017  Video Slides  Building an Inclusive Workplace Environment Develop Denver 2017  Video  Learning Programming with Others Weekly Python Chat with Trey Hunner, April 2017  Video  Assistive Technology in Public Schools Front Range Accessibility and Inclusive Design Meetup, October 2015  Slides  </description>
+      <description>nginx and Node.js Denver Node.js Meetup, May 2020  Video Slides Github Repo  $PATH, /bin and $PS1 DenverScript, February 2020  Video Slides  Fuzzy Lines: Aligning Teams to Monitor Your Application Ecosystem USENIX LISA, October 2019  Video Slides  Refactoring for Accessibility Denver Node.js Meetup, May 2019  Video Slides  Zero to SRE Devops Days Rockies, April 2019 SRECon 19 Americas, March 2019 Denver DevOps Meetup, October 2018  Video Slides  $PATH Lightning Talk BoulderJS, November 2018  Slides  A Beginner&amp;rsquo;s Guide to Kubernetes Develop Denver 2018  Video Slides Github Repo  How to be a Kick-Ass Teacher Develop Denver 2017  Video Slides  Building an Inclusive Workplace Environment Develop Denver 2017  Video  Learning Programming with Others Weekly Python Chat with Trey Hunner, April 2017  Video  Assistive Technology in Public Schools Front Range Accessibility and Inclusive Design Meetup, October 2015  Slides  </description>
     </item>
     
   </channel>
